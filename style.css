@@ -1,0 +1,861 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: #f4f2fd;
+}
+
+.container {
+  display: flex;
+  width: Fixed (962px) px;
+  height: Hug (427px) px;
+  top: 25px;
+  left: -8px;
+  padding: 32px 48px 32px 48px;
+  gap: 32px;
+  opacity: 0px;
+}
+
+.pricing-card-one {
+  display: flex;
+  flex-direction: column;
+  width: Fixed (262px) px;
+  height: Fixed (363px) px;
+  padding: 32px;
+  gap: 32px;
+  border-radius: 8px;
+  opacity: 0px;
+  background: #ffffff;
+  box-shadow: 0px 1px 10px 0px #00000040;
+}
+
+.card-details-one {
+  display: flex;
+  flex-direction: column;
+  width: Hug (198px) px;
+  height: Hug (306px) px;
+  gap: 32px;
+  opacity: 0px;
+}
+.all-details-one {
+  display: flex;
+  flex-direction: column;
+  width: Hug (198px) px;
+  height: Hug (236px) px;
+  gap: 16px;
+  opacity: 0px;
+}
+.card-header-one {
+  display: flex;
+  flex-direction: column;
+  width: Fill (198px) px;
+  height: Hug (108px) px;
+  gap: 16px;
+  opacity: 0px;
+}
+.navigation-header-one {
+  display: flex;
+  flex-direction: column;
+  width: Hug (157px) px;
+  height: Hug (56px) px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.card-heading-one {
+  display: flex;
+  flex-direction: column;
+  width: Hug (157px) px;
+  height: Hug (40px) px;
+  padding: 4px 8px 4px 8px;
+  gap: 10px;
+  opacity: 0px;
+}
+.text-header-one {
+  width: 141px;
+  height: 32px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Nunito;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  color: #202842;
+}
+.card-text-one {
+  display: flex;
+  flex-direction: column;
+  width: Hug (107px) px;
+  height: Hug (16px) px;
+  padding: 0px 8px 0px 8px;
+  gap: 10px;
+  opacity: 0px;
+}
+
+.text-one {
+  width: 91px;
+  height: 16px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: #202842;
+}
+
+.price-one {
+  display: flex;
+  flex-direction: column;
+  width: Hug (58px) px;
+  height: Hug (36px) px;
+  padding: 0px 8px 0px 8px;
+  gap: 10px;
+  opacity: 0px;
+  position: relative;
+  top: 10px;
+  left: 2px;
+}
+
+.price-text-one {
+  width: 42px;
+  height: 36px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Sans Serif Collection;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  color: #202842;
+}
+
+.plan-details-one {
+  display: flex;
+  flex-direction: column;
+  width: Hug (198px) px;
+  height: Hug (112px) px;
+  padding: 8px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.group-text-one {
+  width: 95px;
+  height: 28px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+}
+.left-tick-one {
+  display: flex;
+  width: Hug (30px) px;
+  height: Hug (28px) px;
+  left: 8px;
+  padding: 3px 4px 3px 4px;
+  gap: 10px;
+  opacity: 0px;
+}
+.tick-image {
+  width: 22px;
+  height: 22px;
+  gap: 0px;
+  opacity: 0px;
+  background: url("check-mark\ 1.png");
+  background-size: cover;
+}
+.text-container-one {
+  width: Hug (65px) px;
+  height: Hug (28px) px;
+  left: 38px;
+  padding: 8px 8px 4px 4px;
+  gap: 10px;
+  opacity: 0px;
+}
+
+.one-user {
+  width: 53px;
+  height: 16px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: #202842;
+}
+.group-text-two {
+  width: 134px;
+  height: 28px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+}
+.four-web-mails {
+  width: 92px;
+  height: 16px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: #202842;
+}
+.group-text-three {
+  width: 190px;
+  height: 28px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+}
+
+.text-container-three {
+  width: Hug (160px) px;
+  height: Hug (28px) px;
+  top: 56px;
+  left: 38px;
+  padding: 8px 8px 4px 4px;
+  gap: 10px;
+  opacity: 0px;
+}
+.respon {
+  width: 148px;
+  height: 16px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: #202842;
+}
+.text-container-two {
+  width: Hug (104px) px;
+  height: Hug (28px) px;
+  top: 28px;
+  left: 38px;
+  padding: 8px 8px 4px 4px;
+  gap: 10px;
+  opacity: 0px;
+}
+.group-text-four {
+  width: 107px;
+  height: 28px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+}
+.text-container-four {
+  width: Hug (77px) px;
+  height: Hug (28px) px;
+  top: 84px;
+  left: 38px;
+  padding: 8px 8px 4px 4px;
+  gap: 10px;
+  opacity: 0px;
+}
+.ssl {
+  width: 65px;
+  height: 16px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: #202842;
+}
+
+.subscribe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: Hug (156px) px;
+  height: Hug (38px) px;
+  padding: 8px 24px 8px 24px;
+  gap: 10px;
+  border-radius: 50px;
+  opacity: 0px;
+  background: #202842;
+}
+.Subscribe-now {
+  width: 108px;
+  height: 22px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.subscribe:hover{
+  cursor: pointer;
+}
+
+.pricing-card-two {
+  display: flex;
+  flex-direction: column;
+  width: Fixed (262px) px;
+  height: Fixed (363px) px;
+  padding: 32px;
+  gap: 32px;
+  border-radius: 8px;
+  opacity: 0px;
+  background: #202842;
+  box-shadow: 0px 1px 10px 0px #00000040;
+}
+.card-details-two {
+  display: flex;
+  flex-direction: column;
+  width: Hug (198px) px;
+  height: Hug (306px) px;
+  gap: 32px;
+  opacity: 0px;
+}
+.all-details-two {
+  display: flex;
+  flex-direction: column;
+  width: Hug (198px) px;
+  height: Hug (236px) px;
+  gap: 16px;
+  opacity: 0px;
+}
+
+.card-header-two {
+  display: flex;
+  flex-direction: column;
+  width: Fill (198px) px;
+  height: Hug (108px) px;
+  gap: 16px;
+  opacity: 0px;
+}
+
+.navigation-header-two {
+  width: Hug (171px) px;
+  height: Hug (56px) px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.card-heading-two {
+  display: flex;
+  flex-direction: column;
+  width: Hug (171px) px;
+  height: Hug (40px) px;
+  padding: 4px 8px 4px 8px;
+  gap: 10px;
+  opacity: 0px;
+}
+
+.text-header-two {
+  width: 155px;
+  height: 32px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Nunito;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.card-text-two {
+  width: Hug (151px) px;
+  height: Hug (16px) px;
+  padding: 0px 8px 0px 8px;
+  gap: 10px;
+  opacity: 0px;
+}
+
+.text-two {
+  width: 135px;
+  height: 16px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.price-two {
+  width: Hug (78px) px;
+  height: Hug (36px) px;
+  padding: 0px 8px 0px 8px;
+  gap: 10px;
+  opacity: 0px;
+  position: relative;
+  top: 10px;
+  left: 2px;
+}
+
+.price-text-two {
+  width: 62px;
+  height: 36px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Sans Serif Collection;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.plan-details-two {
+  width: Hug (198px) px;
+  height: Hug (112px) px;
+  padding: 8px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.group-text-two-one {
+  display: flex;
+  width: 95px;
+  height: 28px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.left-tick-two {
+  width: Hug (30px) px;
+  height: Hug (28px) px;
+  left: 8px;
+  padding: 3px 4px 3px 4px;
+  gap: 10px;
+  opacity: 0px;
+}
+
+.tick-image-blue {
+  width: 22px;
+  height: 22px;
+  gap: 0px;
+  opacity: 0px;
+  background: url("check-mark\ 2.png");
+  background-size: cover;
+}
+
+.text-container-two-one {
+  width: Hug (65px) px;
+  height: Hug (28px) px;
+  left: 38px;
+  padding: 8px 8px 4px 4px;
+  gap: 10px;
+  opacity: 0px;
+}
+
+.four-user {
+  width: 53px;
+  height: 16px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.group-text-two-two {
+  display: flex;
+  width: 143px;
+  height: 28px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.text-container-two-two {
+  width: Hug (113px) px;
+  height: Hug (28px) px;
+  top: 28px;
+  left: 38px;
+  padding: 8px 8px 4px 4px;
+  gap: 10px;
+  opacity: 0px;
+}
+
+.ten-web-mails {
+  width: 101px;
+  height: 16px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.group-text-two-three {
+  display: flex;
+  width: 190px;
+  height: 28px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.text-container-two-three {
+  width: Hug (160px) px;
+  height: Hug (28px) px;
+  top: 56px;
+  left: 38px;
+  padding: 8px 8px 4px 4px;
+  gap: 10px;
+  opacity: 0px;
+}
+
+.rasponsive {
+  width: 148px;
+  height: 16px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.group-text-two-four {
+  display: flex;
+  width: 107px;
+  height: 28px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.text-container-two-four {
+  width: Hug (77px) px;
+  height: Hug (28px) px;
+  top: 84px;
+  left: 38px;
+  padding: 8px 8px 4px 4px;
+  gap: 10px;
+  opacity: 0px;
+}
+
+.free-ssl {
+  width: 65px;
+  height: 16px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.subscribe-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: Hug (156px) px;
+  height: Hug (38px) px;
+  padding: 8px 24px 8px 24px;
+  gap: 10px;
+  border-radius: 50px;
+  opacity: 0px;
+  background: #ffffff;
+}
+
+.Subscribe-now-two {
+  width: 108px;
+  height: 22px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: left;
+  color: #1c1c1c;
+}
+
+.subscribe-two:hover{
+  cursor: pointer;
+}
+
+.pricing-card-three {
+  display: flex;
+  flex-direction: column;
+  width: Fixed (263px) px;
+  height: Fixed (361px) px;
+  padding: 32px;
+  gap: 32px;
+  border-radius: 8px;
+  opacity: 0px;
+  background: #ffffff;
+  box-shadow: 0px 1px 10px 0px #00000040;
+}
+.card-details-three {
+  display: flex;
+  flex-direction: column;
+  width: Hug (203px) px;
+  height: Hug (306px) px;
+  gap: 32px;
+  opacity: 0px;
+}
+
+.all-details--three {
+  display: flex;
+  flex-direction: column;
+  width: Hug (203px) px;
+  height: Hug (236px) px;
+  gap: 16px;
+  opacity: 0px;
+}
+.card-header-three {
+  display: flex;
+  flex-direction: column;
+  width: Fill (203px) px;
+  height: Hug (108px) px;
+  gap: 16px;
+  opacity: 0px;
+}
+
+.navigation-header-three {
+  width: Hug (144px) px;
+  height: Hug (56px) px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.card-heading-three {
+  display: flex;
+  flex-direction: column;
+  width: Hug (144px) px;
+  height: Hug (40px) px;
+  padding: 4px 8px 4px 8px;
+  gap: 10px;
+  opacity: 0px;
+}
+
+.text-header-three {
+  width: 128px;
+  height: 32px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Nunito;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: left;
+  color: #202842;
+}
+
+.card-text-three {
+  display: flex;
+  flex-direction: column;
+  width: Hug (117px) px;
+  height: Hug (16px) px;
+  padding: 0px 8px 0px 8px;
+  gap: 10px;
+  opacity: 0px;
+}
+
+.text-three {
+  width: 101px;
+  height: 16px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: #202842;
+}
+
+.price-three {
+  display: flex;
+  flex-direction: column;
+  width: Hug (78px) px;
+  height: Hug (36px) px;
+  padding: 0px 8px 0px 8px;
+  gap: 10px;
+  opacity: 0px;
+  position: relative;
+  top: 10px;
+  left: 2px;
+}
+
+.price-text-three {
+  width: 62px;
+  height: 36px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Sans Serif Collection;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  color: #202842;
+}
+
+.plan-details-three {
+  width: Hug (203px) px;
+  height: Hug (112px) px;
+  padding: 8px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.group-text-three-one {
+  display: flex;
+  width: 156px;
+  height: 28px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.text-container-three-one {
+  display: flex;
+  flex-direction: column;
+  width: Hug (126px) px;
+  height: Hug (28px) px;
+  left: 38px;
+  padding: 8px 8px 4px 4px;
+  gap: 10px;
+  opacity: 0px;
+}
+
+.unlimited-user {
+  width: 114px;
+  height: 16px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: #202842;
+}
+
+.group-text-three-two {
+  display: flex;
+  width: 195px;
+  height: 28px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.text-container-three-two {
+  display: flex;
+  flex-direction: column;
+  width: Hug (165px) px;
+  height: Hug (28px) px;
+  top: 28px;
+  left: 38px;
+  padding: 8px 8px 4px 4px;
+  gap: 10px;
+  opacity: 0px;
+}
+
+.unlimited-webmails {
+  width: 153px;
+  height: 16px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: #202842;
+}
+
+.group-text-three-three {
+  display: flex;
+  width: 190px;
+  height: 28px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.text-container-three-three {
+  display: flex;
+  flex-direction: column;
+  width: Hug (160px) px;
+  height: Hug (28px) px;
+  top: 56px;
+  left: 38px;
+  padding: 8px 8px 4px 4px;
+  gap: 10px;
+  opacity: 0px;
+}
+
+.responsive-website {
+  width: 148px;
+  height: 16px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: #202842;
+}
+
+.group-text-three-four {
+  display: flex;
+  width: 156px;
+  height: 28px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.text-container-three-four {
+  display: flex;
+  flex-direction: column;
+  width: Hug (126px) px;
+  height: Hug (28px) px;
+  top: 84px;
+  left: 38px;
+  padding: 8px 8px 4px 4px;
+  gap: 10px;
+  opacity: 0px;
+}
+
+.free-ssl-seo {
+  width: 114px;
+  height: 16px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: #202842;
+}
